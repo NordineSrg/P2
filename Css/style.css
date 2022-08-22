@@ -1,0 +1,760 @@
+body
+{
+       margin-left: 100px;
+       margin-right: 100px;
+       font-family: 'raleway';
+}
+
+header
+{
+       display: flex;
+       justify-content: space-between;
+}
+
+header img
+{
+       margin: 0em;
+       padding: 0ch;
+}
+
+
+nav ul
+{
+       list-style-type: none;
+       display: flex;
+}
+
+nav li
+{
+       margin-right: 20px;
+       margin-top: 10px;
+}
+
+a
+{
+       text-decoration:none;
+       color: black;
+}
+
+header a:hover
+{
+       border-top: 1px solid blue;
+       padding-top: 30px;
+       color: blue;
+}
+
+form
+{
+       display: flex
+}
+
+#loca
+{
+       border-radius: 40px 0px 0px 40px;
+}
+
+#button
+{
+       height: 45px;
+       width: 150px;
+       border-radius: 0px 10px 10px 0px;
+       background-color: #0065fc;
+       font-family:raleway;
+       font-size: 20px;
+       color: white;
+       border: hidden;
+}
+
+#loupe
+{
+       display: none;
+}
+#zone
+{
+       font-size: medium;
+       border: solid 3px;
+       border-color: #f2f2f2;
+       border-right: hidden;
+}
+
+div li
+{
+       margin-right: 10px;
+}
+
+#filtre
+{
+       display: flex;
+       font-weight: bold;
+       margin-top: 20px;
+       width: auto;
+}
+
+#filtre h4
+{
+       padding-top: 10px;
+}
+
+#filtre a:hover
+{
+       color: blue;
+}
+
+.Filtres
+{
+       display: flex;
+       padding-left: 10px;
+       width: auto;
+       height: 49px;
+       margin-bottom: 20px;
+}
+
+.filtrepix
+{
+       position: relative;
+       top: 16px;
+       left: 40px;
+       height: 47px;
+}
+
+.filtretext
+{
+       display:flex;
+       justify-content: flex-end;
+       border: solid 2px;
+       border-left: hidden;
+       border-color: #d8d8d8;
+       padding: 12px;
+       border-radius: 0px 60px 60px 0px;
+}
+
+#infor
+{
+       display: flex;
+}
+
+#infor p
+{
+       position: relative;
+       bottom: 10px;
+       padding-left: 10px;
+}
+
+#Hebergment_M
+{
+       display: flex;
+       justify-content: space-between;
+       margin-top: 20px;
+       width: auto;
+}
+
+#heberM
+{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       background-color:#f2f2f2;
+       border-radius: 20px 20px 20px 20px;
+       width: 1100px;
+       padding: 10pt;
+       height: auto;
+}
+
+#BLOCPHOTO
+{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin-bottom: 30px;
+       margin-top: 40px;
+       width: auto;
+       background-color:#f2f2f2;
+}
+
+.inBlockHm
+{
+       width: auto;
+       height: 280px;
+       margin-bottom: 30px;
+       background-color: rgba(253, 253, 253, 0.973);
+       border: solid  5px;
+       border-color: white;
+       border-radius: 20px 20px 20px 20px  ;
+}
+
+.inBlockHm h4, p, .star
+{
+       margin-bottom: 10px;
+}
+
+#popu
+{
+       padding-left: 50px;
+       padding-right: 50px;
+       background-color:#f2f2f2;
+       border-radius: 20px 20px 20px 20px;
+       padding-top: 15px;
+       width: auto;
+}
+
+#toppopu
+{
+       display: flex;
+       justify-content: space-between;
+}
+
+#trending
+{
+       width: 30px;
+       height: 40px;
+       margin-top: 10px;
+}
+
+.pix
+{
+       border-radius: 20px 20px 0px 0px;
+       width: 270px;
+}
+
+.pixact
+{
+       border-radius: 20px 20px 0px 0px;
+}
+
+.pixb
+{
+       display: none;
+}
+
+.inBlockpopu
+{
+       display: flex;
+       width: auto;
+       height: auto;
+       margin-top: 35px;
+       margin-left: 10px;
+       background-color: white;
+       border: solid  5px;
+       border-color: rgb(253, 253, 253);
+       border-radius: 20px 20px 20px 20px ;
+}
+
+.pixpopu
+{
+       border-radius: 20px 0px 0px 20px;
+       height: auto;
+       margin-right: 17px;
+}
+
+.inBlockpopu p
+{
+       margin-bottom: 50px;
+       margin-left: 0px;
+}
+
+#Blocact
+{
+       justify-content:space-between;
+       display: flex;
+       flex-wrap: wrap;
+       margin-top: 30px;
+       padding-bottom: 20px;
+       max-width: 1700px;
+}
+
+#actM
+{
+       font-weight: bold;
+       margin-top: 80px;
+}
+
+.actbloc
+{
+       justify-content: space-around;
+       box-shadow: 0 5px 20px -10px rgb(187, 187, 187);
+       border-radius: 0px 0px 20px 20px;
+       padding-bottom: 6px;
+       width: 390px;
+       height: 620px;
+}
+
+aside
+{
+       justify-content: space-between;
+       box-shadow: 0 5px 20px -10px rgb(187, 187, 187);
+       border-radius: 0px 0px 20px 20px;
+       padding-bottom: 6px;
+       margin-bottom: 45px;
+       height: 285px;
+       width:auto;
+}
+
+#Blocact h4
+{
+       padding-left: 20px;
+}
+
+
+footer li
+{
+       list-style-type: none;
+       padding-top: 20px;
+}
+
+footer
+{
+       display: flex;
+       justify-content: space-around;
+       padding-bottom: 30px;
+       padding-top: 20px;
+       margin-top: 30px;
+       background-color: #f2f2f2;
+       flex-direction: row;
+}
+
+#show
+{
+       max-width: 100px;
+}
+
+
+@media all and (min-width: 992px) and (max-width: 1835px)
+{
+
+              
+       #filtre
+       {
+              flex-wrap: wrap;
+       }
+
+       #Hebergment_M
+       {
+              flex-wrap: wrap;
+       }
+                     
+       #heberM
+       {
+              width: auto;
+              padding-left: 20px;
+              justify-content: center;
+       }
+                     
+       #BLOCPHOTO
+       {
+              justify-content: space-around;
+       }
+                     
+       .inBlockHm
+       {
+              width: 350px;
+       }
+
+       .inBlockHm .pix
+       {
+              width: 350px;
+       }
+
+       .pixpopu
+       {
+              margin-right: 20px;
+       }
+       #popu
+       {
+              margin-top: 100px;
+              padding-bottom: 30px;
+              width: auto;
+       }
+       #inPopu
+       {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              width: auto;
+       }
+
+       #actM
+       {
+              justify-content: center;
+       }
+                     
+       .inBlockpopu
+       {
+              margin: 12px;
+              width: 465px;
+       }
+
+       .actbloc
+       {
+
+              margin-bottom: 50px;
+              margin-top: 20px;
+              width: auto;
+       }
+                     
+       aside
+       {
+              justify-content: space-around;
+              width: auto;
+              margin-left: 20px;
+              margin-right: 20px;
+              margin-bottom: 43px;
+              margin-top: 14px;
+       }
+
+       #Blocact
+       {
+              align-items: center;
+              justify-content: center;
+              width: auto
+       }
+                     
+       #lastB
+       {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              width: auto;
+       }
+              
+       footer
+       {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              width: auto;
+       }
+              
+       .props
+       {
+              justify-content: center;
+              margin: auto;
+                     
+       }
+}
+
+@media all and (max-width: 992px)
+{
+       body
+       {
+              font-size:170%;
+              margin: 0cm;
+       }
+       
+       header
+       {
+              flex-direction: column;
+              align-items: center;
+              font-size: 50px;
+       }
+              
+       header a
+       {
+              margin: 30px;
+       }
+              
+       header img
+       {
+              height: 120px;
+              width: 150px;
+       }
+              
+       header a:hover
+       {
+              border-bottom: 1px solid blue;
+              padding-bottom: 30px;
+              color: blue;
+              border-top: none;
+       }
+              
+       #button
+       {
+              display: none;
+       }
+              
+       #loupe
+       {
+
+              display: flex;
+              width: 150px;
+       }
+              
+       form
+       {
+              justify-content: center;
+              margin-top: 1cm;
+       }
+              
+       form img
+       {
+              width: 150px;
+              height: 120px;
+       }
+              
+       #zone
+       {
+              border-left: hidden;
+              font-size: 50px;
+              width: 1500px;
+       }
+              
+       .Filtres
+       {
+              display: flex;
+              padding-left: 10px;
+              width: auto;
+       }
+       
+       .filtretext
+       {
+              width: auto;
+              height: 49px;
+              font-size: 40px;
+              padding: 30px;
+              display:flex;
+              justify-content: flex-end;
+              border: solid 5px;
+              border-color: #dddddd;
+       }
+              
+       #filtre a
+       {
+              width: 620px;
+              height:150px ;
+       }
+              
+       #filtre h4
+       {
+              font-size: 50px;
+              width: 600px;
+              margin-left: 20px;
+              margin-bottom: 10px;
+       }
+              
+       #filtre
+       {
+              flex-wrap: wrap;
+       }
+              
+       .filtrepix
+       {
+              position: relative;
+              top: 27px;
+              left: 60px;
+               height: 119px;
+       }
+              
+       #infor p
+       {
+              font-size: 120%;
+              margin-top: 70px;
+       }
+              
+       #infor img
+       {
+              position: relative;
+              top: 55px;
+              height: 50px;
+              width: 50px;
+       }
+       
+       #Hebergment_M
+       {
+              flex-wrap: wrap-reverse;
+              margin-top: 0px;
+       }
+              
+       #heberM
+       {
+              background-color: white;
+              width: auto;
+              justify-content: center;
+       }
+              
+       #heberM h2
+       {
+                     
+              font-size: 50px;
+              margin-left: 120px;
+       }
+              
+       #show
+       {
+              margin-left: 130px;
+
+       }
+              
+       #BLOCPHOTO
+       {
+              justify-content: center;
+              background-color: white;
+              margin: 0pt;
+       }
+              
+       .inBlockHm
+       {
+
+              height: auto;
+              width: auto;
+              box-shadow: 0 5px 20px -10px rgb(187, 187, 187);
+       }
+              
+       .inBlockHm h4, p, .star
+       {
+              margin-left: 20px;
+       }
+              
+       .star
+       {
+              width: 180px;
+       }
+              
+       .inBlockHm .pix
+       {
+              height: 300px;
+               width: 700px;
+       }
+
+       .pixpopu
+       {
+              width: 250px;
+              margin-right: 50px;
+       }
+       
+       #popu
+       {  
+              margin-top: 100px;
+              padding-bottom: 30px;
+              margin-bottom: 50px;
+              padding-top: 30px;
+              width: auto;
+              padding-left: 0px;
+              padding-right: 0px;
+       }
+              
+       #popu h2
+       {
+              margin-left: 30px;
+       }
+              
+       #trending
+       {
+              width: 60px;
+              height: 70px;
+              margin-top: 15px;
+              margin-right: 30px;
+       }
+              
+       #inPopu
+       {
+              display: flex;
+              flex-direction: column;
+              flex-wrap: wrap;
+              justify-content: space-around;
+              width: auto;
+       }
+              
+       button
+       {
+              border: hidden;
+       }
+              
+       #actM
+       {
+              justify-content: center;
+       }
+              
+       #actM h2
+       {
+              margin-left: 140px;
+       }
+              
+       .inBlockpopu
+       {
+              display: flex;
+              font-size: 38.8px;
+              width: 880px;
+              margin: 40px;
+              padding-right: 10px;
+       }
+              
+       .actbloc h4
+       {
+              margin-left: 23px;
+       }
+              
+       .starpop
+       {
+              width: 120px;
+              height: 25px;
+       }
+              
+       .actbloc
+       {
+
+              margin-bottom: 50px;
+              margin-top: 20px;
+              width: 700px;
+              height: auto;
+       }
+              
+       aside
+       {
+              justify-content: space-around;
+              width: 700px;
+              height: 400px;
+       }
+       
+       #Blocact
+       {
+              align-items: center;
+              justify-content: center;
+              width: auto
+       }
+              
+       .pixact
+       {
+              display: none;
+       }
+              
+       .pixb
+       {
+
+              display: flex;
+              width: 700px;
+              height: 400px;
+              border-radius: 20px 20px 0px 0px;
+       }
+              
+       #lastB
+       {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              width: auto;
+       }
+              
+       aside
+       {
+              height: auto;
+       }
+       
+       footer
+       {
+              display: flex;
+              flex-direction: column;
+              padding: 0ch;
+              width: auto;
+              font-size: 23px;
+       }
+              
+       footer ul
+       {
+              padding: 0pt;
+       }
+              
+       .props
+       {
+              margin-left: 80px;
+              width: auto; 
+       }
+}
